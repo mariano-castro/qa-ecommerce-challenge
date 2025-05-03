@@ -7,10 +7,10 @@ Feature: Homepage Navigation
 
   Scenario: Valid search
     Given I am on the homepage
-    When I search for a product ''
-    Then I should see the product ''
+    When I search for a product 'Watch'
+    Then I should see the product 'Watch'
 
   Scenario: Invalid search
     Given I am on the homepage
     When I search for a product 'asdasd'
-    Then I should see the no products validation
+    Then I should see no products validation
