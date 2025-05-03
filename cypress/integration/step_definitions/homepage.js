@@ -5,7 +5,7 @@ Given('I am on the homepage', () => {
     HomePage.visit();
 });
 
-Then('I should see the main content', () => {
+When('I should see the main content', () => {
     HomePage.verifyMainContent();
 });
 
